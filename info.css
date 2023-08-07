@@ -1,0 +1,287 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.d-flex{
+  display: flex;
+}
+
+.jcsb{
+   justify-content: space-between;
+}
+
+.jcsa{
+  justify-content: space-around;
+}
+
+body{
+  font-family:'Bruno Ace SC';
+}
+
+nav{
+  max-width: 100%;
+  padding-top: 40px;
+  padding-bottom: 24px;
+  background-color: black;
+  color: white;
+}
+
+nav ul li{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.container{
+  max-width: 1296px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:visited, a:link, a:active {
+  text-decoration: none;
+}
+
+.section1{
+  color: white;
+  max-width: 100%;
+  background-color: black;
+}
+
+.section1 img{
+  margin-top: 72px;
+  margin-bottom: 72px;
+}
+
+.introduce{
+  font-size: 64px;
+  line-height: 96px;
+  margin-top: 232px;
+  margin-left: 24px;
+}
+
+.name{
+  font-size: 128px;
+  line-height: 192px;
+  text-align: end;
+  color: #00FFA3;
+
+}
+
+.section2{
+  background-image:url('./img/background-img.png');
+  max-width: 100%;
+  height: 920px;
+}
+
+.introduction{
+  width: 526px;
+}
+
+.section2 h3{
+  margin-top: 160px;
+  font-size: 64px;
+  line-height: 96px;
+  color: white;
+}
+
+.section2 p{
+  font-size: 24px;
+  line-height: 36px;
+  color: white;
+}
+
+.section2 img{
+ margin-top: 32px;
+ margin-left: 12px;
+
+}
+
+.section2 .rightSiteImg{
+  margin-top: 160px;
+}
+
+.section3{
+  height: 740px;
+  max-width: 100%;
+  background-color: white;
+}
+
+.rightSite{
+  width: 526px;
+  margin-top: 160px;
+}
+
+.rightSite h2{
+font-size: 64px;
+line-height: 96px;
+}
+.rightSite p{
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.card{
+  padding: 16px;
+  width: 274px;
+  border: solid 1px #E3E3E3;
+  margin-bottom: 24px;
+}
+
+.card h4{
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.card p{
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.section3 .leftSite{
+  margin-top: 206px;
+  width: 636px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section4{
+ max-width: 100%;
+ height: 354px;
+ background-color: #050014;
+ color: white;
+ padding-top: 129px;
+ vertical-align: middle;
+
+}
+
+.section4 h4{
+  font-size: 64px;
+  line-height: 96px;
+  vertical-align: middle;
+}
+
+.section4 img{
+  vertical-align: middle;
+  width: 100px;
+}
+
+.contact{
+  
+  align-items: center;
+}
+
+.imgContent img{
+  width: 162px;
+}
+
+.socialIcon{
+  width:162px;
+  height: 162px;
+  background-size: cover;
+
+}
+
+.imgContent{
+  width: 526px;
+}
+
+.socialIcon img{
+  width: 100%;
+  height: 100%;
+}
+
+.section5{
+  height:962px;
+  background-color:white ;
+  padding-top: 160px;
+}
+
+.section5 h3{
+  font-size: 64px;
+  line-height: 96px;
+  margin-left: 550px;
+  margin-bottom: 16px;
+}
+
+img{
+  vertical-align: middle;
+}
+
+.section5 .second-row img{
+  margin-left: 24px;
+  margin-bottom: 28px;
+}
+
+.section5 .second-row p{
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 15px;
+}
+
+.section5 .third-row img{
+  margin-left: 24px;
+}
+
+footer{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: black;
+  text-align: center;
+}
+
+footer p{
+  color: white;
+  font-size: 16px;
+  font-weight: 24px;
+}
+
+a,a:link,a:visited{color:white;text-decoration: none}

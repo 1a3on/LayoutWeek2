@@ -209,8 +209,13 @@ line-height: 96px;
   vertical-align: middle;
 }
 
+.s4lf{
+  align-items: center;
+}
+
 .section4 img{
-  vertical-align: middle;
+ 
+  
   width: 100px;
 }
 
@@ -227,8 +232,24 @@ line-height: 96px;
   width:162px;
   height: 162px;
   background-size: cover;
-
 }
+
+.discord{
+  background-image: url('./img/discord.png');
+}
+
+.discord:hover{
+  background-image: url('./img/discord_hover.png');
+}
+
+.IG{
+  background-image: url('./img/instagram.png'); 
+}
+
+.MSG{
+  background-image: url('./img/message.png'); 
+}
+
 
 .imgContent{
   width: 526px;
